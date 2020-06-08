@@ -1,6 +1,10 @@
 # VideoStitch
 A node module that performs cutting, clips extraction, merging on videos using ffpmeg.
 
+# This Fork
+This fork extends ArsalanDotMe/VideoStitch with the following capabilities:
+- Using output pipes to avoid writing output to disk
+
 # Requirements
 This module is tested against **FFMPEG 3.x** only. Later versions should work though but are untested at this point. 
 Please test and report your findings. 
